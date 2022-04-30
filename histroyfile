@@ -1,0 +1,883 @@
+    1  clear
+    2  ls -i
+    3  ls -l
+    4  touch sagar1 sagar2 sagar3
+    5  ls
+    6  ls -l
+    7  ls -lt
+    8  ls -lrt
+    9  touch .text1
+   10  ls -lt
+   11  ls -a
+   12  du -sh *
+   13  du -sh 
+   14  du -sh sagar1
+   15  du
+   16  df -h
+   17  df -h .
+   18  free
+   19  free -g
+   20  free -m
+   21  free -k
+   22  ls
+   23  cp file1 file3
+   24  ls
+   25  cat file1
+   26  cat sagar2
+   27  vi sagar2
+   28  ls
+   29  cp -r sagar sagar2
+   30  mkdir folder1
+   31  cp -r sagar folder1
+   32  ls
+   33  touch fol1 fol2
+   34  ls
+   35  ls fol1
+   36  touch folder1/sgaar
+   37  ls
+   38  ls folder1
+   39  cp -r folder1/* fol
+   40  cp -r folder1/* sagar
+   41  ls
+   42  ls sagar
+   43  ls
+   44  cp -r folder1/* .
+   45  ls
+   46  ../sagar cp -r ../folder1/*
+   47  cd sagar
+   48  cp -r ../folder1/*
+   49  cp -r ../folder1/* .
+   50  ls
+   51  cd
+   52  cd folder1
+   53  ls
+   54  touch fil1 fil2
+   55  vi fil1
+   56  vi fil2
+   57  ls
+   58  mv fil1 fil2
+   59  ls
+   60  cat fil2
+   61  cd
+   62  ls
+   63  mv folder1 sagar
+   64  ls
+   65  ls -l
+   66  ls sagar
+   67  mv folder1/* sagar
+   68  mv sagar/folder1/* sagar
+   69  ls sagar
+   70  vi fil1
+   71  cat fil1
+   72  vi fil1
+   73  clear
+   74  ls
+   75  wc fil1
+   76  wc -l fil1
+   77  wc -w  fill
+   78  wc -w fil1
+   79  wc -c fil1
+   80  vi fil1
+   81  ls
+   82  wc -c fil1
+   83  wc -l fil1
+   84  wc -w fil1
+   85  set nu
+   86  vi fil1
+   87  clear
+   88  ls
+   89  wc
+   90  clear
+   91  wc -l fil1
+   92  wc -w fil1
+   93  wc -c fil1
+   94  clear
+   95  ls
+   96  clear
+   97  ls
+   98  ls -ltr
+   99  chown root
+  100  chown root:root fil4
+  101  suto chown root:root fil4
+  102  ls -ltr
+  103  sudo chown root:root fil4
+  104  ls -ltr
+  105  sudo chown root:ubuntu fil4
+  106  ls -ltr
+  107  sudo chown root:root *
+  108  ls -ltr
+  109  sudo chown root:ubuntu *
+  110  ls -ltr
+  111  sudo su
+  112  clear
+  113  ls -lrt
+  114  sudo chmod u-r fil1
+  115  ls -lrt
+  116  clear
+  117  umask
+  118  clear
+  119  clear
+  120  grep -e "mys" -e "feb" fil4
+  121  grep -w "feb" fil4
+  122  grep -w "mys" fil4
+  123  grep -e "mys" fil4
+  124  grep -c "mys" fil4
+  125  grep -n "mys" fil4
+  126  grep -v "mys" fil4
+  127  grep -v "mam" fil4
+  128  ls
+  129  grep "mys" *
+  130  grep -R "mys" *
+  131  cp fil4 fol4/
+  132  grep -R "mys" *
+  133  clear
+  134  ls
+  135  ll
+  136  sudo chown ubuntu:root fil3
+  137  ll
+  138  head -2 fil4
+  139  clear
+  140  ls
+  141  head -2 fil4 > fil5
+  142  cat fil5
+  143  tail -3 fil4 > fil6
+  144  cat fil6
+  145  head -3 fil4 >> fil6
+  146  cat fil6
+  147  history
+  148  history > histor
+  149  cat historyfile
+  150  ll
+  151  history >> historyfile
+  152  cat historyfile
+  153  head -2 | fil3
+  154  head -2 fil3 > f3
+  155  cat f3
+  156  cat fil3
+  157  clear
+  158  ll
+  159  cat fil3
+  160  cat fil4
+  161  head -5 fil4 > f1 |tail 2
+  162  head -5 fil4 > f1 |tail -1
+  163  head -5 fil4 > f1 | tail -1
+  164  head -5 fil4 | tail -1
+  165  head -5 fil4 | tail -1 |wc -l
+  166  head -5 fil4 | tail -1 |wc -c
+  167  vi fil4
+  168  head -5 fil4 | tail -1 |wc -c
+  169  head -5 fil4 | tail -1 |wc -w
+  170  head -4 fil4 | tail -1 |wc -w
+  171  head -4 fil4 | tail -1 
+  172  cat fil4
+  173  head -5 fil4 | tail -2
+  174  head -4 fil4 | tail -2 > fil0
+  175  cat fil0
+  176  cat -n fil4
+  177  hostname
+  178  uname
+  179  uname -v
+  180  uname -a
+  181  echo "weclone to devps class"
+  182  echo -e "sagar" "devops"
+  183  echo  "sagar" "devops"
+  184  echo -e "sagar"\n  "devops"
+  185  echo -e "sagar \n devops"
+  186  clear
+  187  grep -i "h$" fil4
+  188  grep "^$" fil4
+  189  grep -c "^$" fil4
+  190  history > historyfilee
+  191  cat historyfilee
+  192  sed 's/h/a/g' fil4
+  193  vi fil4
+  194  sed 's/a/h/g' fil4
+  195  sed 's/used/use/g' fil4
+  196  sed -i 's/used/use/g' fil4| sed 
+  197  cat fil4
+  198  sed 's/use/used/g' fil4|sed 's/job/jobs/g'
+  199  sed '$s/lines/line/g' fil4
+  200  sed '$s/pwd/line/g' fil4
+  201  cat -n fil4
+  202  sed '5,14s/it/this/g' fil4
+  203  clear 
+  204  find .-type f -mtime+7
+  205  find .-type f -mtime +7
+  206  find . -type f -mtime +7
+  207  find . -type f -mtime +1
+  208  find . -type f -mtime -10
+  209  find . -type f -mtime -10 ! -mtime +5
+  210  find . -type f -mtime -10  -mtime +5
+  211  ll
+  212  find . -type f -mmin -10
+  213  history >> historyfile
+  214  find . -type f -mmin +10
+  215  find . -type f -perm 777
+  216  find . -type f -perm 664
+  217  history >> historyfile
+  218  find . -type f -empty
+  219  history >> historyfile
+  220  grep -l "^$" *
+  221  find . -type f -size 4k
+  222  find . -type f -size 2k
+  223  clear
+  224  history >> historyfile
+  225  cat -n historyfile
+  226  ls -l
+  227  cd /usr/bin
+  228  vi cat
+  229  cd
+  230  history >>historyfile
+  231  clear
+  232  ps -u ubuntu
+  233  service nginx start
+  234  sudo service nginx start
+  235  apt install default-jre
+  236  sudo apt install default-jre
+  237  java --version
+  238  history >>historyfile
+  239  cat -n historyfile
+  240  ps -ef | grep -i "java"
+  241  service java start 
+  242  sudo service java start 
+  243  history >>historyfile
+  244  cat -n historyfile
+  245  sudo service java status
+  246  sudo service jre  start
+  247  kill --help
+  248  kill --l
+  249  uptime --help
+  250  uptime
+  251  ls /home
+  252  history >>historyfile
+  253  cat -n historyfile
+  254  uptime
+  255  clear
+  256  sudo su
+  257  ls -l
+  258  history >>historyfile
+  259  ls /home
+  260  sudo vi /etc/ssh/sshd_config 
+  261  sudo su -
+  262  su - sagaronkar
+  263  ssh -i sagarpem ubuntu@172.31.17.232
+  264  ls
+  265  ssh sagar@172.31.82.30
+  266  ls
+  267  sudo vi /etc/ssh/sshd_config 
+  268  cat -n  /etc/ssh/sshd_config
+  269  clear
+  270  ssh -i sagarpem ubuntu@172.31.82.30
+  271  chmod 400 sagarpem
+  272  ssh -i sagarpem ubuntu@172.31.82.30
+  273  ls /home
+  274  vi /etc/group
+  275  ssh sagarnew@172.31.82.89
+  276  clear
+  277  ls
+  278  ls /home
+  279  sudo su -
+  280  ssh sagar@172.31.82.30:/home/sagar/
+  281  scp fil1 sagar@172.31.82.30:/home/sagar/
+  282  clear
+  283  ls -l
+  284  scp fil1 sagaronkar@172.31.82.89:/home/sagaronkar
+  285  clear
+  286  ls -l
+  287  scp -r fol2 sagar@172.31.82.30:/home/sagaronkar/
+  288  scp -r fol2 sagaronkar@172.31.82.89:/home/sagaronkar/
+  289  scp -r *  sagaronkar@172.31.82.89:/home/sagaronkar/
+  290  rsync -r * sagaronkar@172.31.82.89:/home/sagaronkar/
+  291  history >> histroyfile
+    1  clear
+    2  ls -i
+    3  ls -l
+    4  touch sagar1 sagar2 sagar3
+    5  ls
+    6  ls -l
+    7  ls -lt
+    8  ls -lrt
+    9  touch .text1
+   10  ls -lt
+   11  ls -a
+   12  du -sh *
+   13  du -sh 
+   14  du -sh sagar1
+   15  du
+   16  df -h
+   17  df -h .
+   18  free
+   19  free -g
+   20  free -m
+   21  free -k
+   22  ls
+   23  cp file1 file3
+   24  ls
+   25  cat file1
+   26  cat sagar2
+   27  vi sagar2
+   28  ls
+   29  cp -r sagar sagar2
+   30  mkdir folder1
+   31  cp -r sagar folder1
+   32  ls
+   33  touch fol1 fol2
+   34  ls
+   35  ls fol1
+   36  touch folder1/sgaar
+   37  ls
+   38  ls folder1
+   39  cp -r folder1/* fol
+   40  cp -r folder1/* sagar
+   41  ls
+   42  ls sagar
+   43  ls
+   44  cp -r folder1/* .
+   45  ls
+   46  ../sagar cp -r ../folder1/*
+   47  cd sagar
+   48  cp -r ../folder1/*
+   49  cp -r ../folder1/* .
+   50  ls
+   51  cd
+   52  cd folder1
+   53  ls
+   54  touch fil1 fil2
+   55  vi fil1
+   56  vi fil2
+   57  ls
+   58  mv fil1 fil2
+   59  ls
+   60  cat fil2
+   61  cd
+   62  ls
+   63  mv folder1 sagar
+   64  ls
+   65  ls -l
+   66  ls sagar
+   67  mv folder1/* sagar
+   68  mv sagar/folder1/* sagar
+   69  ls sagar
+   70  vi fil1
+   71  cat fil1
+   72  vi fil1
+   73  clear
+   74  ls
+   75  wc fil1
+   76  wc -l fil1
+   77  wc -w  fill
+   78  wc -w fil1
+   79  wc -c fil1
+   80  vi fil1
+   81  ls
+   82  wc -c fil1
+   83  wc -l fil1
+   84  wc -w fil1
+   85  set nu
+   86  vi fil1
+   87  clear
+   88  ls
+   89  wc
+   90  clear
+   91  wc -l fil1
+   92  wc -w fil1
+   93  wc -c fil1
+   94  clear
+   95  ls
+   96  clear
+   97  ls
+   98  ls -ltr
+   99  chown root
+  100  chown root:root fil4
+  101  suto chown root:root fil4
+  102  ls -ltr
+  103  sudo chown root:root fil4
+  104  ls -ltr
+  105  sudo chown root:ubuntu fil4
+  106  ls -ltr
+  107  sudo chown root:root *
+  108  ls -ltr
+  109  sudo chown root:ubuntu *
+  110  ls -ltr
+  111  sudo su
+  112  clear
+  113  ls -lrt
+  114  sudo chmod u-r fil1
+  115  ls -lrt
+  116  clear
+  117  umask
+  118  clear
+  119  clear
+  120  grep -e "mys" -e "feb" fil4
+  121  grep -w "feb" fil4
+  122  grep -w "mys" fil4
+  123  grep -e "mys" fil4
+  124  grep -c "mys" fil4
+  125  grep -n "mys" fil4
+  126  grep -v "mys" fil4
+  127  grep -v "mam" fil4
+  128  ls
+  129  grep "mys" *
+  130  grep -R "mys" *
+  131  cp fil4 fol4/
+  132  grep -R "mys" *
+  133  clear
+  134  ls
+  135  ll
+  136  sudo chown ubuntu:root fil3
+  137  ll
+  138  head -2 fil4
+  139  clear
+  140  ls
+  141  head -2 fil4 > fil5
+  142  cat fil5
+  143  tail -3 fil4 > fil6
+  144  cat fil6
+  145  head -3 fil4 >> fil6
+  146  cat fil6
+  147  history
+  148  history > histor
+  149  cat historyfile
+  150  ll
+  151  history >> historyfile
+  152  cat historyfile
+  153  head -2 | fil3
+  154  head -2 fil3 > f3
+  155  cat f3
+  156  cat fil3
+  157  clear
+  158  ll
+  159  cat fil3
+  160  cat fil4
+  161  head -5 fil4 > f1 |tail 2
+  162  head -5 fil4 > f1 |tail -1
+  163  head -5 fil4 > f1 | tail -1
+  164  head -5 fil4 | tail -1
+  165  head -5 fil4 | tail -1 |wc -l
+  166  head -5 fil4 | tail -1 |wc -c
+  167  vi fil4
+  168  head -5 fil4 | tail -1 |wc -c
+  169  head -5 fil4 | tail -1 |wc -w
+  170  head -4 fil4 | tail -1 |wc -w
+  171  head -4 fil4 | tail -1 
+  172  cat fil4
+  173  head -5 fil4 | tail -2
+  174  head -4 fil4 | tail -2 > fil0
+  175  cat fil0
+  176  cat -n fil4
+  177  hostname
+  178  uname
+  179  uname -v
+  180  uname -a
+  181  echo "weclone to devps class"
+  182  echo -e "sagar" "devops"
+  183  echo  "sagar" "devops"
+  184  echo -e "sagar"\n  "devops"
+  185  echo -e "sagar \n devops"
+  186  clear
+  187  grep -i "h$" fil4
+  188  grep "^$" fil4
+  189  grep -c "^$" fil4
+  190  history > historyfilee
+  191  cat historyfilee
+  192  sed 's/h/a/g' fil4
+  193  vi fil4
+  194  sed 's/a/h/g' fil4
+  195  sed 's/used/use/g' fil4
+  196  sed -i 's/used/use/g' fil4| sed 
+  197  cat fil4
+  198  sed 's/use/used/g' fil4|sed 's/job/jobs/g'
+  199  sed '$s/lines/line/g' fil4
+  200  sed '$s/pwd/line/g' fil4
+  201  cat -n fil4
+  202  sed '5,14s/it/this/g' fil4
+  203  clear 
+  204  find .-type f -mtime+7
+  205  find .-type f -mtime +7
+  206  find . -type f -mtime +7
+  207  find . -type f -mtime +1
+  208  find . -type f -mtime -10
+  209  find . -type f -mtime -10 ! -mtime +5
+  210  find . -type f -mtime -10  -mtime +5
+  211  ll
+  212  find . -type f -mmin -10
+  213  history >> historyfile
+  214  find . -type f -mmin +10
+  215  find . -type f -perm 777
+  216  find . -type f -perm 664
+  217  history >> historyfile
+  218  find . -type f -empty
+  219  history >> historyfile
+  220  grep -l "^$" *
+  221  find . -type f -size 4k
+  222  find . -type f -size 2k
+  223  clear
+  224  history >> historyfile
+  225  cat -n historyfile
+  226  ls -l
+  227  cd /usr/bin
+  228  vi cat
+  229  cd
+  230  history >>historyfile
+  231  clear
+  232  ps -u ubuntu
+  233  service nginx start
+  234  sudo service nginx start
+  235  apt install default-jre
+  236  sudo apt install default-jre
+  237  java --version
+  238  history >>historyfile
+  239  cat -n historyfile
+  240  ps -ef | grep -i "java"
+  241  service java start 
+  242  sudo service java start 
+  243  history >>historyfile
+  244  cat -n historyfile
+  245  sudo service java status
+  246  sudo service jre  start
+  247  kill --help
+  248  kill --l
+  249  uptime --help
+  250  uptime
+  251  ls /home
+  252  history >>historyfile
+  253  cat -n historyfile
+  254  uptime
+  255  clear
+  256  sudo su
+  257  ls -l
+  258  history >>historyfile
+  259  ls /home
+  260  sudo vi /etc/ssh/sshd_config 
+  261  sudo su -
+  262  su - sagaronkar
+  263  ssh -i sagarpem ubuntu@172.31.17.232
+  264  ls
+  265  ssh sagar@172.31.82.30
+  266  ls
+  267  sudo vi /etc/ssh/sshd_config 
+  268  cat -n  /etc/ssh/sshd_config
+  269  clear
+  270  ssh -i sagarpem ubuntu@172.31.82.30
+  271  chmod 400 sagarpem
+  272  ssh -i sagarpem ubuntu@172.31.82.30
+  273  ls /home
+  274  vi /etc/group
+  275  ssh sagarnew@172.31.82.89
+  276  clear
+  277  ls
+  278  ls /home
+  279  sudo su -
+  280  ssh sagar@172.31.82.30:/home/sagar/
+  281  scp fil1 sagar@172.31.82.30:/home/sagar/
+  282  clear
+  283  ls -l
+  284  scp fil1 sagaronkar@172.31.82.89:/home/sagaronkar
+  285  clear
+  286  ls -l
+  287  scp -r fol2 sagar@172.31.82.30:/home/sagaronkar/
+  288  scp -r fol2 sagaronkar@172.31.82.89:/home/sagaronkar/
+  289  scp -r *  sagaronkar@172.31.82.89:/home/sagaronkar/
+  290  rsync -r * sagaronkar@172.31.82.89:/home/sagaronkar/
+  291  history >> histroyfile
+  292  history >>histroyfile
+    1  clear
+    2  ls -i
+    3  ls -l
+    4  touch sagar1 sagar2 sagar3
+    5  ls
+    6  ls -l
+    7  ls -lt
+    8  ls -lrt
+    9  touch .text1
+   10  ls -lt
+   11  ls -a
+   12  du -sh *
+   13  du -sh 
+   14  du -sh sagar1
+   15  du
+   16  df -h
+   17  df -h .
+   18  free
+   19  free -g
+   20  free -m
+   21  free -k
+   22  ls
+   23  cp file1 file3
+   24  ls
+   25  cat file1
+   26  cat sagar2
+   27  vi sagar2
+   28  ls
+   29  cp -r sagar sagar2
+   30  mkdir folder1
+   31  cp -r sagar folder1
+   32  ls
+   33  touch fol1 fol2
+   34  ls
+   35  ls fol1
+   36  touch folder1/sgaar
+   37  ls
+   38  ls folder1
+   39  cp -r folder1/* fol
+   40  cp -r folder1/* sagar
+   41  ls
+   42  ls sagar
+   43  ls
+   44  cp -r folder1/* .
+   45  ls
+   46  ../sagar cp -r ../folder1/*
+   47  cd sagar
+   48  cp -r ../folder1/*
+   49  cp -r ../folder1/* .
+   50  ls
+   51  cd
+   52  cd folder1
+   53  ls
+   54  touch fil1 fil2
+   55  vi fil1
+   56  vi fil2
+   57  ls
+   58  mv fil1 fil2
+   59  ls
+   60  cat fil2
+   61  cd
+   62  ls
+   63  mv folder1 sagar
+   64  ls
+   65  ls -l
+   66  ls sagar
+   67  mv folder1/* sagar
+   68  mv sagar/folder1/* sagar
+   69  ls sagar
+   70  vi fil1
+   71  cat fil1
+   72  vi fil1
+   73  clear
+   74  ls
+   75  wc fil1
+   76  wc -l fil1
+   77  wc -w  fill
+   78  wc -w fil1
+   79  wc -c fil1
+   80  vi fil1
+   81  ls
+   82  wc -c fil1
+   83  wc -l fil1
+   84  wc -w fil1
+   85  set nu
+   86  vi fil1
+   87  clear
+   88  ls
+   89  wc
+   90  clear
+   91  wc -l fil1
+   92  wc -w fil1
+   93  wc -c fil1
+   94  clear
+   95  ls
+   96  clear
+   97  ls
+   98  ls -ltr
+   99  chown root
+  100  chown root:root fil4
+  101  suto chown root:root fil4
+  102  ls -ltr
+  103  sudo chown root:root fil4
+  104  ls -ltr
+  105  sudo chown root:ubuntu fil4
+  106  ls -ltr
+  107  sudo chown root:root *
+  108  ls -ltr
+  109  sudo chown root:ubuntu *
+  110  ls -ltr
+  111  sudo su
+  112  clear
+  113  ls -lrt
+  114  sudo chmod u-r fil1
+  115  ls -lrt
+  116  clear
+  117  umask
+  118  clear
+  119  clear
+  120  grep -e "mys" -e "feb" fil4
+  121  grep -w "feb" fil4
+  122  grep -w "mys" fil4
+  123  grep -e "mys" fil4
+  124  grep -c "mys" fil4
+  125  grep -n "mys" fil4
+  126  grep -v "mys" fil4
+  127  grep -v "mam" fil4
+  128  ls
+  129  grep "mys" *
+  130  grep -R "mys" *
+  131  cp fil4 fol4/
+  132  grep -R "mys" *
+  133  clear
+  134  ls
+  135  ll
+  136  sudo chown ubuntu:root fil3
+  137  ll
+  138  head -2 fil4
+  139  clear
+  140  ls
+  141  head -2 fil4 > fil5
+  142  cat fil5
+  143  tail -3 fil4 > fil6
+  144  cat fil6
+  145  head -3 fil4 >> fil6
+  146  cat fil6
+  147  history
+  148  history > histor
+  149  cat historyfile
+  150  ll
+  151  history >> historyfile
+  152  cat historyfile
+  153  head -2 | fil3
+  154  head -2 fil3 > f3
+  155  cat f3
+  156  cat fil3
+  157  clear
+  158  ll
+  159  cat fil3
+  160  cat fil4
+  161  head -5 fil4 > f1 |tail 2
+  162  head -5 fil4 > f1 |tail -1
+  163  head -5 fil4 > f1 | tail -1
+  164  head -5 fil4 | tail -1
+  165  head -5 fil4 | tail -1 |wc -l
+  166  head -5 fil4 | tail -1 |wc -c
+  167  vi fil4
+  168  head -5 fil4 | tail -1 |wc -c
+  169  head -5 fil4 | tail -1 |wc -w
+  170  head -4 fil4 | tail -1 |wc -w
+  171  head -4 fil4 | tail -1 
+  172  cat fil4
+  173  head -5 fil4 | tail -2
+  174  head -4 fil4 | tail -2 > fil0
+  175  cat fil0
+  176  cat -n fil4
+  177  hostname
+  178  uname
+  179  uname -v
+  180  uname -a
+  181  echo "weclone to devps class"
+  182  echo -e "sagar" "devops"
+  183  echo  "sagar" "devops"
+  184  echo -e "sagar"\n  "devops"
+  185  echo -e "sagar \n devops"
+  186  clear
+  187  grep -i "h$" fil4
+  188  grep "^$" fil4
+  189  grep -c "^$" fil4
+  190  history > historyfilee
+  191  cat historyfilee
+  192  sed 's/h/a/g' fil4
+  193  vi fil4
+  194  sed 's/a/h/g' fil4
+  195  sed 's/used/use/g' fil4
+  196  sed -i 's/used/use/g' fil4| sed 
+  197  cat fil4
+  198  sed 's/use/used/g' fil4|sed 's/job/jobs/g'
+  199  sed '$s/lines/line/g' fil4
+  200  sed '$s/pwd/line/g' fil4
+  201  cat -n fil4
+  202  sed '5,14s/it/this/g' fil4
+  203  clear 
+  204  find .-type f -mtime+7
+  205  find .-type f -mtime +7
+  206  find . -type f -mtime +7
+  207  find . -type f -mtime +1
+  208  find . -type f -mtime -10
+  209  find . -type f -mtime -10 ! -mtime +5
+  210  find . -type f -mtime -10  -mtime +5
+  211  ll
+  212  find . -type f -mmin -10
+  213  history >> historyfile
+  214  find . -type f -mmin +10
+  215  find . -type f -perm 777
+  216  find . -type f -perm 664
+  217  history >> historyfile
+  218  find . -type f -empty
+  219  history >> historyfile
+  220  grep -l "^$" *
+  221  find . -type f -size 4k
+  222  find . -type f -size 2k
+  223  clear
+  224  history >> historyfile
+  225  cat -n historyfile
+  226  ls -l
+  227  cd /usr/bin
+  228  vi cat
+  229  cd
+  230  history >>historyfile
+  231  clear
+  232  ps -u ubuntu
+  233  service nginx start
+  234  sudo service nginx start
+  235  apt install default-jre
+  236  sudo apt install default-jre
+  237  java --version
+  238  history >>historyfile
+  239  cat -n historyfile
+  240  ps -ef | grep -i "java"
+  241  service java start 
+  242  sudo service java start 
+  243  history >>historyfile
+  244  cat -n historyfile
+  245  sudo service java status
+  246  sudo service jre  start
+  247  kill --help
+  248  kill --l
+  249  uptime --help
+  250  uptime
+  251  ls /home
+  252  history >>historyfile
+  253  cat -n historyfile
+  254  uptime
+  255  clear
+  256  sudo su
+  257  ls -l
+  258  history >>historyfile
+  259  ls /home
+  260  sudo vi /etc/ssh/sshd_config 
+  261  sudo su -
+  262  su - sagaronkar
+  263  ssh -i sagarpem ubuntu@172.31.17.232
+  264  ls
+  265  ssh sagar@172.31.82.30
+  266  ls
+  267  sudo vi /etc/ssh/sshd_config 
+  268  cat -n  /etc/ssh/sshd_config
+  269  clear
+  270  ssh -i sagarpem ubuntu@172.31.82.30
+  271  chmod 400 sagarpem
+  272  ssh -i sagarpem ubuntu@172.31.82.30
+  273  ls /home
+  274  vi /etc/group
+  275  ssh sagarnew@172.31.82.89
+  276  clear
+  277  ls
+  278  ls /home
+  279  sudo su -
+  280  ssh sagar@172.31.82.30:/home/sagar/
+  281  scp fil1 sagar@172.31.82.30:/home/sagar/
+  282  clear
+  283  ls -l
+  284  scp fil1 sagaronkar@172.31.82.89:/home/sagaronkar
+  285  clear
+  286  ls -l
+  287  scp -r fol2 sagar@172.31.82.30:/home/sagaronkar/
+  288  scp -r fol2 sagaronkar@172.31.82.89:/home/sagaronkar/
+  289  scp -r *  sagaronkar@172.31.82.89:/home/sagaronkar/
+  290  rsync -r * sagaronkar@172.31.82.89:/home/sagaronkar/
+  291  history >> histroyfile
+  292  history >>histroyfile
+  293  cat -n historyfile
+  294  ping 172.31.82.89
+  295  ping 172.31.82.80
+  296  netstat -ntlpu
+  297  telnet 172.31.82.89
+  298  telnet 172.31.82.89 22
+  299  telnet 172.31.82.89 20
+  300  history >>histroyfile
